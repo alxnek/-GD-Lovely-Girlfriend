@@ -6,7 +6,9 @@
   <NewExtensions>
     <extension index="0">extensions\The Dude's Library</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\win</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\bf</sprite>
     <sprite>sprites\gf_right</sprite>
