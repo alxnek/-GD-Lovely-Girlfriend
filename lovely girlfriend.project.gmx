@@ -29,6 +29,7 @@
   <paths name="paths">
     <path>paths\path_bf_lvl1</path>
     <path>paths\path_gf_intro</path>
+    <path>paths\path_bf_intro</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
@@ -45,7 +46,7 @@
     <object>objects\intro_handler</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\timeline1</timeline>
+    <timeline>timelines\timeline_intro</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Intro</room>

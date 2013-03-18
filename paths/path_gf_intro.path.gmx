@@ -1,5 +1,5 @@
 <path>
-  <kind>0</kind>
+  <kind>1</kind>
   <closed>0</closed>
   <precision>4</precision>
   <backroom>2</backroom>
@@ -10,8 +10,8 @@
     <point>128,256,100</point>
     <point>224,320,100</point>
     <point>224,272,100</point>
-    <point>224,224,100</point>
-    <point>176,128,100</point>
+    <point>272,224,100</point>
+    <point>144,112,100</point>
     <point>288,160,100</point>
     <point>416,160,100</point>
     <point>496,160,100</point>
