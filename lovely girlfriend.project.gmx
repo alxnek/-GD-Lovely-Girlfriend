@@ -5,6 +5,7 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\The Dude's Library</extension>
+    <extension index="2">extensions\The Dude's Library</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
@@ -23,9 +24,11 @@
   </sprites>
   <backgrounds name="background">
     <background>background\uni</background>
+    <background>background\home</background>
   </backgrounds>
   <paths name="paths">
-    <path>paths\path1</path>
+    <path>paths\path_bf_lvl1</path>
+    <path>paths\path_gf_intro</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
@@ -33,15 +36,21 @@
   <objects name="objects">
     <object>objects\Bf</object>
     <object>objects\Gf</object>
-    <object>objects\obj_controller</object>
+    <object>objects\controllerGF</object>
+    <object>objects\obj_EnemyFlow</object>
     <object>objects\Enemy</object>
     <object>objects\music</object>
     <object>objects\Wall</object>
+    <object>objects\Wall_invisible</object>
+    <object>objects\intro_handler</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline1</timeline>
+  </timelines>
   <rooms name="rooms">
+    <room>rooms\Intro</room>
     <room>rooms\level1</room>
     <room>rooms\level2</room>
-    <room>rooms\Intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
