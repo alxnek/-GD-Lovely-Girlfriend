@@ -5,6 +5,7 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\The Dude's Library</extension>
+    <extension index="1">extensions\The Dude's Library</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
@@ -24,6 +25,7 @@
   <backgrounds name="background">
     <background>background\uni</background>
     <background>background\home</background>
+    <background>background\intro</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_bf_lvl1</path>
@@ -48,6 +50,7 @@
     <timeline>timelines\timeline_intro</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Welcome_room</room>
     <room>rooms\Intro</room>
     <room>rooms\level1</room>
     <room>rooms\level2</room>

@@ -91,13 +91,13 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>intro_handler</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.intro</string>
+            <string>global.intr</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -253,13 +253,13 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>intro_handler</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.intro</string>
+            <string>global.intr</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -295,13 +295,13 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>intro_handler</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.intro</string>
+            <string>global.intr</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -328,6 +328,119 @@
             <string>PETER what do you do</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>778346</libid>
+        <id>93</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring>{
+thequestionvariable123 = get_string(argument0, "");
+if (thequestionvariable123 = argument1)
+	{
+		return true;
+	}
+else
+	{
+		return false;
+	}
+}
+/*
+=======================The Dude's Library Full=================
+
+	This drag and drop is property of Dude759 and is copyright (c) 2010. 
+
+	
+	If you see this drag and drop, or it's code anywhere else other than in The Dude's Library, report
+
+	it to Dude759 immediately at:
+
+				-golddude1234@yahoo.com
+
+				-http://www.yoyogames.com/users/258420/messages?recipient=dude759
+
+	Thanks ~ Dude759
+*/
+</codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Honey, Do you love me?</string>
+          </argument>
+          <argument>
+            <kind>1</kind>
+            <string>no</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>68903</libid>
+        <id>106</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>321</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_message</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>2</kind>
+            <string>I LEAVE YOU HAHHAA BYE</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>331</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_restart_game</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>68903</libid>
+        <id>109</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>
