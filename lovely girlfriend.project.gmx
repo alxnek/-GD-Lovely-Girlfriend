@@ -45,6 +45,7 @@
     <object>objects\Wall</object>
     <object>objects\Wall_invisible</object>
     <object>objects\intro_handler</object>
+    <object>objects\Cheats</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_intro</timeline>

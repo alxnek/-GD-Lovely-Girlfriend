@@ -166,6 +166,7 @@
     <instance objName="Wall" x="0" y="544" name="inst_3771201B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controllerGF" x="32" y="544" name="inst_A6960DD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_EnemyFlow" x="96" y="544" name="inst_54F90F29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Cheats" x="64" y="32" name="inst_609F9863" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
