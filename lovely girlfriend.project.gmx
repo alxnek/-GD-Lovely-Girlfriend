@@ -5,7 +5,6 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\The Dude's Library</extension>
-    <extension index="2">extensions\The Dude's Library</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
