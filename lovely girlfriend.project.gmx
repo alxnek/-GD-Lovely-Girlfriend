@@ -4,7 +4,6 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions>
-    <extension index="0">extensions\The Dude's Library</extension>
     <extension index="1">extensions\The Dude's Library</extension>
   </NewExtensions>
   <sounds name="sound">
