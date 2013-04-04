@@ -3,9 +3,13 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\The Dude's Library</extension>
+    <extension index="1">extensions\The Dude's Library</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
+    <sound>sound\sound2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\bf</sprite>
