@@ -22,6 +22,8 @@
     <sprite>sprites\enemy_die</sprite>
     <sprite>sprites\splash</sprite>
     <sprite>sprites\wall</sprite>
+    <sprite>sprites\spr_yes</sprite>
+    <sprite>sprites\spr_no</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\uni</background>
@@ -47,6 +49,9 @@
     <object>objects\Wall_invisible</object>
     <object>objects\intro_handler</object>
     <object>objects\Cheats</object>
+    <object>objects\obj_Text</object>
+    <object>objects\obj_button</object>
+    <object>objects\obj_buttonNO</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_intro</timeline>
