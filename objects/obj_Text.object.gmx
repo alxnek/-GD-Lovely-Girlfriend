@@ -49,18 +49,18 @@ show= 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (dialogo = 1)draw_text(view_xview[0] + 370,view_yview[0] +200, "Peter PETEEER")
-if (dialogo = 2)draw_text(view_xview[0] + 370,view_yview[0] +200, "Peter where are youuuuuuuu!?!")
-if (dialogo = 3)draw_text(view_xview[0] + 370,view_yview[0] +200, "DAMN boyfriend")
-if (dialogo = 4)draw_text(view_xview[0] + 370,view_yview[0] +200, "I have to find him")
-if (dialogo = 5)draw_text(view_xview[0] + 370,view_yview[0] +200, "PEETER do you love me??")
-if (dialogo = 6)draw_text(view_xview[0] + 370,view_yview[0] +200, "I love you")
-if (dialogo = 7)draw_text(view_xview[0] + 370,view_yview[0] +200, "I leave you MUAJAJA")
-if (dialogo = 8)draw_text(view_xview[0] + 370,view_yview[0] +200, "8")
-if (dialogo = 9)draw_text(view_xview[0] + 370,view_yview[0] +200, "9")
+            <string>if (dialogo = 1)draw_text(view_xview[0] + 370,view_yview[0] +250, "Peter PETEEER")
+if (dialogo = 2)draw_text(view_xview[0] + 370,view_yview[0] +250, "Peter where are youuuuuuuu!?!")
+if (dialogo = 3)draw_text(view_xview[0] + 370,view_yview[0] +250, "DAMN boyfriend")
+if (dialogo = 4)draw_text(view_xview[0] + 370,view_yview[0] +250, "I have to find him")
+if (dialogo = 5)draw_text(view_xview[0] + 370,view_yview[0] +250, "PEETER do you love me??")
+if (dialogo = 6)draw_text(view_xview[0] + 370,view_yview[0] +250, "I love you")
+if (dialogo = 7)draw_text(view_xview[0] + 370,view_yview[0] +250, "OF course NOT")
+if (dialogo = 8)draw_text(view_xview[0] + 370,view_yview[0] +250, "I LEAVE YOU")
+if (dialogo = 9)draw_text(view_xview[0] + 370,view_yview[0] +250, "I have to kill the other girls")
 
 
-if show draw_rectangle(view_xview[0] + 370,view_yview[0] +200, view_xview[0] + 570,view_yview[0] +500, false)
+if show draw_rectangle(view_xview[0] + 370,view_yview[0] +250, view_xview[0] + 570,view_yview[0] +500, false)
 </string>
           </argument>
         </arguments>

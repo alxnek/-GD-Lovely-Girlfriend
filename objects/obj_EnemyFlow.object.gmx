@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>110</string>
+            <string>100</string>
           </argument>
         </arguments>
       </action>
@@ -196,7 +196,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>global.sides - 20</string>
+            <string>global.sides - 10</string>
           </argument>
         </arguments>
       </action>
@@ -322,7 +322,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>40</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -346,21 +346,21 @@ else
       </action>
       <action>
         <libid>1</libid>
-        <id>321</id>
+        <id>605</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_message</functionname>
+        <exetype>0</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>2</kind>
-            <string>NEXT LEVEL</string>
+            <kind>1</kind>
+            <string>next level</string>
           </argument>
         </arguments>
       </action>
@@ -436,7 +436,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>70</string>
+            <string>80</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -460,21 +460,21 @@ else
       </action>
       <action>
         <libid>1</libid>
-        <id>321</id>
+        <id>605</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_message</functionname>
+        <exetype>0</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>2</kind>
-            <string>Normal</string>
+            <kind>1</kind>
+            <string>medio</string>
           </argument>
         </arguments>
       </action>
@@ -498,7 +498,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>global.sides - 5</string>
+            <string>global.sides - 10</string>
           </argument>
         </arguments>
       </action>
@@ -536,7 +536,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>25</string>
+            <string>50</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -560,21 +560,21 @@ else
       </action>
       <action>
         <libid>1</libid>
-        <id>321</id>
+        <id>605</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_message</functionname>
+        <exetype>0</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>2</kind>
-            <string>Hard. Last Round</string>
+            <kind>1</kind>
+            <string>hard</string>
           </argument>
         </arguments>
       </action>

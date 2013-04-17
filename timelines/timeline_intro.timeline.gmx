@@ -91,6 +91,30 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>peter</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </entry>
   <entry>
@@ -117,10 +141,34 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>where</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </entry>
   <entry>
-    <step>280</step>
+    <step>222</step>
     <event>
       <action>
         <libid>1</libid>
@@ -143,6 +191,35 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>damn</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>280</step>
+    <event>
       <action>
         <libid>1</libid>
         <id>119</id>
@@ -231,6 +308,30 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>ihavetofind</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>307</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -284,7 +385,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_Text) {
+            <string>audio_play_sound(doyouloveme,10,false)
+with(obj_Text) {
 dialogo +=1
 }
 </string>
@@ -311,7 +413,7 @@ dialogo +=1
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0] + 370</string>
+            <string>view_xview[0] + 360</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -339,7 +441,7 @@ dialogo +=1
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0] + 470</string>
+            <string>view_xview[0] + 490</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -385,12 +487,14 @@ dialogo +=1
             <string>if answer == 1{
     with(obj_Text) {
     dialogo +=1
+    audio_play_sound(iloveyou,10, false);
     }
 }
 
-if answer == 0 {
+if answer == 2 {
     with(obj_Text) {
     dialogo +=2
+    audio_play_sound(no,10, false);
     }
 }
 </string>
@@ -400,7 +504,7 @@ if answer == 0 {
     </event>
   </entry>
   <entry>
-    <step>380</step>
+    <step>450</step>
     <event>
       <action>
         <libid>1</libid>
@@ -419,12 +523,88 @@ if answer == 0 {
           <argument>
             <kind>1</kind>
             <string>if answer == 1{
-    room_goto_next();
+    audio_play_sound(neverleaveme,10, false);
 }
 
-if answer == 0 {
-    room_restart();
+if answer == 2 {
+    with(obj_Text) {
+    dialogo +=1
+    audio_play_sound(ileaveyou,10, false);
+    }
+    
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>570</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if answer == 1{
+   
+    room_goto_next();
+}
+if answer == 2 {
+    game_restart();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>307</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_timeline_pause</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>600</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with(obj_Text) dialogo +=1
 </string>
           </argument>
         </arguments>

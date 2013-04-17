@@ -10,6 +10,17 @@
   <sounds name="sound">
     <sound>sound\win</sound>
     <sound>sound\sound2</sound>
+    <sound>sound\peter</sound>
+    <sound>sound\where</sound>
+    <sound>sound\damn</sound>
+    <sound>sound\doyouloveme</sound>
+    <sound>sound\ihavetofind</sound>
+    <sound>sound\ihavetokill</sound>
+    <sound>sound\ileaveyou</sound>
+    <sound>sound\iloveyou</sound>
+    <sound>sound\neverleaveme</sound>
+    <sound>sound\no</sound>
+    <sound>sound\yes</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\bf</sprite>
@@ -29,6 +40,7 @@
     <background>background\uni</background>
     <background>background\home</background>
     <background>background\intro</background>
+    <background>background\lvl2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_bf_lvl1</path>
