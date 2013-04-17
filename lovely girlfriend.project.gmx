@@ -5,7 +5,7 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\The Dude's Library</extension>
-    <extension index="1">extensions\The Dude's Library</extension>
+    <extension index="2">extensions\The Dude's Library</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
@@ -30,6 +30,8 @@
     <sprite>sprites\gl_left</sprite>
     <sprite>sprites\gf_highDown</sprite>
     <sprite>sprites\enemies</sprite>
+    <sprite>sprites\enemy2</sprite>
+    <sprite>sprites\enemy2die</sprite>
     <sprite>sprites\enemy_die</sprite>
     <sprite>sprites\splash</sprite>
     <sprite>sprites\wall</sprite>
@@ -46,6 +48,7 @@
     <path>paths\path_bf_lvl1</path>
     <path>paths\path_gf_intro</path>
     <path>paths\path_bf_intro</path>
+    <path>paths\path_bf_lvl2</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
@@ -56,6 +59,7 @@
     <object>objects\controllerGF</object>
     <object>objects\obj_EnemyFlow</object>
     <object>objects\Enemy</object>
+    <object>objects\Enemy2</object>
     <object>objects\music</object>
     <object>objects\Wall</object>
     <object>objects\Wall_invisible</object>
@@ -70,9 +74,9 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\Welcome_room</room>
+    <room>rooms\level2</room>
     <room>rooms\Intro</room>
     <room>rooms\level1</room>
-    <room>rooms\level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
