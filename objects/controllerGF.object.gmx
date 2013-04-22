@@ -122,21 +122,25 @@ else
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
-        <id>321</id>
+        <id>211</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_message</functionname>
+        <functionname>action_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>2</kind>
-            <string>I have to KILL the other girlsss</string>
+            <kind>6</kind>
+            <sound>ihavetokill</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
