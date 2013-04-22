@@ -3,9 +3,24 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\The Dude's Library</extension>
+    <extension index="2">extensions\The Dude's Library</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
+    <sound>sound\sound2</sound>
+    <sound>sound\peter</sound>
+    <sound>sound\where</sound>
+    <sound>sound\damn</sound>
+    <sound>sound\doyouloveme</sound>
+    <sound>sound\ihavetofind</sound>
+    <sound>sound\ihavetokill</sound>
+    <sound>sound\ileaveyou</sound>
+    <sound>sound\iloveyou</sound>
+    <sound>sound\neverleaveme</sound>
+    <sound>sound\no</sound>
+    <sound>sound\yes</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\bf</sprite>
@@ -15,19 +30,25 @@
     <sprite>sprites\gl_left</sprite>
     <sprite>sprites\gf_highDown</sprite>
     <sprite>sprites\enemies</sprite>
+    <sprite>sprites\enemy2</sprite>
+    <sprite>sprites\enemy2die</sprite>
     <sprite>sprites\enemy_die</sprite>
     <sprite>sprites\splash</sprite>
     <sprite>sprites\wall</sprite>
+    <sprite>sprites\spr_yes</sprite>
+    <sprite>sprites\spr_no</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\uni</background>
     <background>background\home</background>
     <background>background\intro</background>
+    <background>background\lvl2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_bf_lvl1</path>
     <path>paths\path_gf_intro</path>
     <path>paths\path_bf_intro</path>
+    <path>paths\path_bf_lvl2</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
@@ -38,20 +59,24 @@
     <object>objects\controllerGF</object>
     <object>objects\obj_EnemyFlow</object>
     <object>objects\Enemy</object>
+    <object>objects\Enemy2</object>
     <object>objects\music</object>
     <object>objects\Wall</object>
     <object>objects\Wall_invisible</object>
     <object>objects\intro_handler</object>
     <object>objects\Cheats</object>
+    <object>objects\obj_Text</object>
+    <object>objects\obj_button</object>
+    <object>objects\obj_buttonNO</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_intro</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Welcome_room</room>
+    <room>rooms\level2</room>
     <room>rooms\Intro</room>
     <room>rooms\level1</room>
-    <room>rooms\level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
