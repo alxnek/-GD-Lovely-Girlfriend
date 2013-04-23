@@ -75,6 +75,7 @@
   <rooms name="rooms">
     <room>rooms\Welcome_room</room>
     <room>rooms\level2</room>
+    <room>rooms\End</room>
     <room>rooms\Intro</room>
     <room>rooms\level1</room>
   </rooms>

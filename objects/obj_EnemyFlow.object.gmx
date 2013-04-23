@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>level =1
+hscore = false
 </string>
           </argument>
         </arguments>
@@ -551,7 +552,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>140</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -630,6 +631,28 @@ else
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>highscore_add("you", score+10)
+hscore = 1
+</string>
+          </argument>
+        </arguments>
       </action>
       <action>
         <libid>1</libid>
@@ -858,6 +881,29 @@ else
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//if hscore draw_highscore(50,50,200,200);
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
