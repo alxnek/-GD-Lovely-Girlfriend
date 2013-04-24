@@ -37,6 +37,7 @@
     <sprite>sprites\wall</sprite>
     <sprite>sprites\spr_yes</sprite>
     <sprite>sprites\spr_no</sprite>
+    <sprite>sprites\spr_heart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\uni</background>
@@ -69,6 +70,7 @@
     <object>objects\obj_button</object>
     <object>objects\obj_buttonNO</object>
     <object>objects\scoredraw</object>
+    <object>objects\heart</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_intro</timeline>
