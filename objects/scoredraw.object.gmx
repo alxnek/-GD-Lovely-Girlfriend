@@ -25,10 +25,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(250,250,"Your Score "+ string(score))
+            <string>draw_text(200,250,"Your Score "+ string(score))
+draw_text(150, 300, "Press Space to restart the game")
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="32">
+      <action>
+        <libid>1</libid>
+        <id>331</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_restart_game</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>
