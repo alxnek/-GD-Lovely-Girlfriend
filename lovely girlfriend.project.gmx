@@ -68,16 +68,17 @@
     <object>objects\obj_Text</object>
     <object>objects\obj_button</object>
     <object>objects\obj_buttonNO</object>
+    <object>objects\scoredraw</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_intro</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Welcome_room</room>
-    <room>rooms\level2</room>
-    <room>rooms\End</room>
     <room>rooms\Intro</room>
     <room>rooms\level1</room>
+    <room>rooms\level2</room>
+    <room>rooms\End</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
