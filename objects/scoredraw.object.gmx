@@ -69,13 +69,13 @@ for (i = 1; i &lt; numOfScores+1; i += 1){
     }
  }
  
- draw_text(180, 370, "COOL!! Press Space to try again")
+ draw_text(180, 370, "COOL!! Press ENTER to try again :)")
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="32">
+    <event eventtype="10" enumb="13">
       <action>
         <libid>1</libid>
         <id>224</id>
