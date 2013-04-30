@@ -63,8 +63,8 @@ numOfScores += 1
             <string>
 for (i = 1; i &lt; numOfScores+1; i += 1){
     {
-    
-    draw_text(230,120+(i*20),"Your score "+string(i)+" -----&gt; "+ string(arrayOfScores[numOfScores-i]))
+    if i == 1 draw_text(230,150+(i*20),"Your last score "+" -----&gt; "+ string(arrayOfScores[numOfScores-i]))
+    else draw_text(230,150+(i*20),"Your score "+string(i)+" -----&gt; "+ string(arrayOfScores[numOfScores-i]))
  
     }
  }
