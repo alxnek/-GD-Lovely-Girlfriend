@@ -52,7 +52,15 @@ show= 0
             <string>if (dialogo = 1)draw_text(view_xview[0] + 370,view_yview[0] +250, "Peter PETEEER")
 if (dialogo = 2)draw_text(view_xview[0] + 370,view_yview[0] +250, "Peter where are youuuuuuuu!?!")
 if (dialogo = 3)draw_text(view_xview[0] + 370,view_yview[0] +250, "DAMN boyfriend")
-if (dialogo = 4)draw_text(view_xview[0] + 370,view_yview[0] +250, "I have to find him")
+if (dialogo = 4){
+draw_text(view_xview[0] + 370,view_yview[0] +250, "I have to find him")
+draw_set_color(c_fuchsia);
+//draw_rectangle(100, 100, 300, 200, true);
+draw_rectangle(view_xview[0] + 50,view_yview[0] + 440,view_xview[0] +620,view_yview[0] +470,true)
+draw_set_color(c_white);
+draw_text(view_xview[0] + 70,view_yview[0] +450, "Move the girl with the arrows. Use space to atack other girls")
+}
+
 if (dialogo = 5)draw_text(view_xview[0] + 370,view_yview[0] +250, "PEETER do you love me??")
 if (dialogo = 6)draw_text(view_xview[0] + 370,view_yview[0] +250, "I love you")
 if (dialogo = 7)draw_text(view_xview[0] + 370,view_yview[0] +250, "OF course NOT")
