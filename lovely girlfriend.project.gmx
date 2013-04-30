@@ -5,7 +5,7 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\The Dude's Library</extension>
-    <extension index="2">extensions\The Dude's Library</extension>
+    <extension index="1">extensions\The Dude's Library</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\win</sound>
@@ -37,18 +37,22 @@
     <sprite>sprites\wall</sprite>
     <sprite>sprites\spr_yes</sprite>
     <sprite>sprites\spr_no</sprite>
+    <sprite>sprites\spr_heart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\uni</background>
     <background>background\home</background>
     <background>background\intro</background>
     <background>background\lvl2</background>
+    <background>background\lvl3</background>
+    <background>background\the_end</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_bf_lvl1</path>
     <path>paths\path_gf_intro</path>
     <path>paths\path_bf_intro</path>
     <path>paths\path_bf_lvl2</path>
+    <path>paths\path_bf_lvl3</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
@@ -68,15 +72,19 @@
     <object>objects\obj_Text</object>
     <object>objects\obj_button</object>
     <object>objects\obj_buttonNO</object>
+    <object>objects\scoredraw</object>
+    <object>objects\heart</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_intro</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Welcome_room</room>
-    <room>rooms\level2</room>
     <room>rooms\Intro</room>
     <room>rooms\level1</room>
+    <room>rooms\level2</room>
+    <room>rooms\level3</room>
+    <room>rooms\End</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
